@@ -1,0 +1,57 @@
+    body{
+		font: 14px sans-serif; text-align: center; 
+		background-image:url("transparent.jpg");
+		}
+	.pagewrap h1
+	{
+		font-size:30px
+		top:50%;
+		font-style:oblique;
+		font-family:times new roman;
+		font-weight:bold;
+
+		color:blue;
+	}
+	
+	.page-header h1
+	{
+		font-size:30px
+		top:50%;
+		font-style:oblique;
+		font-family:times new roman;
+		font-weight:bold;
+
+		color:blue;
+		
+	}
+	.button ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 29px;
+  font-size:20px;
+  text-align:center;
+  width: 1300px;
+  font-weight:bold;
+  font-family:times new roman;
+  background-color: #f1f1f1;
+  font-color:lightblue;
+}
+.button ul ul{
+	display:hidden;
+	opacity:0px;
+	transition:  all 0.3s;
+
+}
+
+ .button li a {
+  display: block;
+  color: red;
+  padding: 25px 25px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.button li a:hover {
+  background-color:blue;
+  color: white;
+}

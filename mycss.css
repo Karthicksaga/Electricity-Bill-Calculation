@@ -1,0 +1,53 @@
+
+
+body
+{
+	background-image:url("transparent.jpg");
+}
+
+ h1{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:SlateBlue;
+  text-align: center; 
+  #text-decoration: underline
+}
+
+  .wrapper{ 
+  padding: 10px;
+width:900px;
+height:730px;
+background:white;
+color:;
+top:70%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-border:solid-box;	
+  }
+ 
+ 
+marquee{
+      font-size: 30px;
+      font-Weight:bold;
+      color: red;
+      font-family: sans-serif;
+      }
+
+.wrapper table{
+  font-family: sans-serif; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  
+  background-color: #7b68ee; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+  background-image:url("electricity.jpg")
+}
+.wrapper table.inner{
+  border: 56px;
+  }
